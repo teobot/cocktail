@@ -1,0 +1,45 @@
+.mobile-image {
+  height: 30vh;
+  width: 100%;
+  background-color: red;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.image-text {
+  font-family: "Noto Sans TC", sans-serif;
+}
+
+.info-cont {
+  margin-top: calc((59px / 2) + 4px);
+}
+
+.col {
+  text-align: center !important;
+}
+
+.glass-small {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 4px;
+  font-size: calc(12px + 0.1vw);
+}
+
+.instructions-text {
+  max-height: 50vh;
+  overflow-y: auto;
+}
+
+.refresh-btn {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 4px;
+}
+
+.drink-name {
+  font-size: calc(16px + 1.5vw);
+}
